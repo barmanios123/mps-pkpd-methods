@@ -28,3 +28,19 @@ Rscript mps_pkpd_toy_translation.R
 Outputs (CSV and PNG) will be written to:
 
 - `outputs/pkpd_demo/`
+
+## Example figures
+
+| MPS knockdown Emax fit | EC50 comparison |
+|---|---|
+| ![Emax fit of MPS APOC3 knockdown vs concentration](mps_chip_emax_fit.png) | ![EC50 multiple comparison](ec50_multiple_comparison.png) |
+
+| Simulated PK profiles | Simulated PD (Lp(a)) profiles |
+|---|---|
+| ![Toy 1-compartment PK profiles](toy_pk_profiles.png) | ![Toy Emax PD profiles](toy_pd_profiles.png) |
+
+These are illustrative toy simulations for method development, not clinical predictions.
+
+## License
+
+MIT. See [LICENSE](LICENSE).
